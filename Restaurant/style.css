@@ -1,0 +1,154 @@
+*{
+    background-color:black;
+    color:white;
+}
+ .head{
+     display: flex;
+     background-color:black;
+     height:70px;
+
+ }
+ .head h1{
+   font-size: 50px;
+    color:rgb(255, 69, 2);
+    margin-left: 50px;
+    margin-top:0px;
+    
+}
+.nav{
+    margin-top: 20px;
+    margin-left: 500px;
+    justify-content: center;
+    
+}
+.nav a{
+    text-decoration: none;
+   font-size: 20px;
+   margin-right: 15px;
+   color:white;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+.nav a:hover {
+    color: orangered;
+}
+
+
+.head button{
+    background-color:rgb(255, 69, 2);
+    padding:5px;
+    border-color:rgb(255, 69, 2) ;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+}
+.body1{
+    display: flex;
+    height:530px;
+
+}
+.left{
+   margin-top: 60px;
+   margin-left:50px;
+   font-size: 30px;;
+    width:500px;
+    color:white;
+    height:500px;
+
+}
+
+.b1{
+        background-color:rgb(255, 69, 2);
+        padding:10px;
+        border-color:rgb(255, 69, 2) ;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        margin-left: 90px;
+}
+.right img{
+   margin-left: 20px;
+   margin-top: 50px;
+   height:70vh;
+   width:100vh;
+}
+#menu{
+    margin-left:60px;
+    margin-right:60px;
+    justify-content: center;
+    font-size: 25px;
+}
+.part2{
+    margin-left:380px;
+    margin-top:-200px;
+}
+.part3{
+    margin-left:780px;
+    margin-top:-200px;
+}
+#menu h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color:aqua;
+    font-weight: 1000;
+}
+.topic{
+    color:orangered;
+    margin-top: 20px;
+  
+}
+#location{
+    margin-left:60px;
+    margin-right:60px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.welcome ,.services{
+    margin-top: 20px;
+    width:300px;
+    height:250px;
+    background-color:black;
+    color:white;
+   
+}
+.welcome p,.services ul{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    color:white;
+    font-size:17px;
+}
+.welcome h1,.services h1{
+    margin-left: 35px;
+    padding-top: 10px;
+    
+}
+
+.services{
+    margin-top:-270px;
+    margin-left: 400px;
+}
+#about{
+margin-left: 800px;
+margin-top:-270px;
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -20px;
+    font-size: 20px;
+}
+.topicsub{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color:aqua;
+    font-weight: 1000;
+}
+.welcome h1,.services h1{
+    color:orangered;
+    margin-left: 95px;
+}
